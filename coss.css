@@ -1,0 +1,81 @@
+body {
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  background-color:#86ABF3;
+  height: 1000px;
+}
+#Brytania{
+  width: 750px;
+  margin-left: 125px;
+}
+#Brytania1{
+  width: 70px;
+  height: 30px;
+  margin-top: 2px;
+}
+#Rock{
+  height: 200px;
+  width: 200px;
+  margin-left: 400px;
+}
+#container
+{
+	width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#menu{
+  background-color: #b8caed;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+  float: center;
+  text-align: center;
+}
+#logo
+{
+	color: black;
+	margin-top: 4px;
+	font-size: 30px;
+	letter-spacing: 10px;
+	text-align: center;
+	font-weight: 600;
+	background-color: rgb(223, 95, 95);
+  width: 99,5%;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+#content{
+  height: 800px;
+  width: 94,5%;
+  background-color:  #f7f6f8;
+  margin-top: 3px;
+  font-size: 25px;
+  padding: 40px;
+  font-weight: 10px;
+  letter-spacing: 2px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.option
+{
+	float: left;
+	min-width: 120px;
+	height: 25px;
+	font-size: 17px;
+	padding: 10px;
+}
+.option:hover
+{
+	background-color: turquoise;
+	cursor: pointer;
+}
+#footer{
+  width: 100%;
+  background-color: brown;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+}

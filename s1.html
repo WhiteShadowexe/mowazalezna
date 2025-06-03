@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mowa zależna - język angielski</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="coss.css" type="text/css">
+</head>
+<body>
+<div id="container">
+  <div id="logo">
+    MOWA ZALEŻNA - JĘZYK ANGIELSKI
+    <img id="Brytania1" src="flaga-wielka-brytania.jpg">
+  </div>
+  <div id="menu">
+    <a href="index.html"><div class="option">Strona główna</div></a>
+    <a href="s1.html"><div class="option">Czym jest mowa zależna?</div></a>
+    <a href="s2.html"><div class="option">Gramatyka</div></a>
+    <a href="s3.html"><div class="option">Wyjątki</div></a>
+    <a href="s4.html"><div class="option">Zdania przeczące i pytające</div></a>
+    <a href="s5.html"><div class="option">Ćwiczenia</div></a>
+  </div>
+  <div id="content">
+Reported speech, czyli mowa zależna, to sposób przekazywania cudzych wypowiedzi w formie pośredniej, bez cytowania ich dosłownie. 
+<br><br>
+W języku angielskim oznacza to zwykle zmianę czasów, zaimków i określeń miejsca lub czasu.
+<br><br>
+Przykładowe zdania z wykorzystaniem mowy zależnej:
+<br><br>
+She said that she was tired.
+<br><br>
+He told me that he didn't like coffee.
+<br><br>
+They said that they would come later.
+  </div>
+  <div style="clear: both"></div>
+  <div id="footer">
+    &copy; 2025 Wszelkie prawa zastrzeżone
+     <form id="f1" action="" method="get">
+<input type="text" name="czas" size="10" />
+</form>
+  </div>
+</div>
+<script>
+function zegar() {
+  var data = new Date();
+  var godzina = data.getHours();
+  var min = data.getMinutes();
+  var sek = data.getSeconds();
+  var terazjest = ""+godzina+
+  ((min<10)?":0":":")+min+
+  ((sek<10)?":0":":")+sek;
+  document.getElementById("f1").czas.value = terazjest;
+  setTimeout("zegar()", 1000);
+}
+zegar();
+</script> 
+</body>
+</html>
